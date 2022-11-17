@@ -5185,10 +5185,6 @@ span {
     height: 697px;
 }
 
-.questions {
-    margin-bottom: 100px;
-}
-
 .question {
     display: inline-block;
     display: -ms-flexbox;
@@ -5624,7 +5620,7 @@ span {
         margin-left: 0;
         margin-right: 0;
     }
-
+  /*==________HEADER________==*/
     .header {
         width: 768px;
         height: 105px;
@@ -5663,7 +5659,7 @@ span {
         font-size: 22px;
         line-height: 25px;
     }
-
+  /*==________INTRO________==*/
     .intro {
         width: 768px;
         height: 919px;
@@ -5701,7 +5697,7 @@ span {
     .btn--orng {
         margin-bottom: 25px;
     }
-
+  /*==________SERVICES________==*/
     .services__inner {
         width: 655px;
         -ms-flex-wrap: wrap;
@@ -5733,7 +5729,7 @@ span {
         width: 676px;
         height: 381px;
     }
-
+  /*==________QUESTIONS________==*/
     .questions {
         margin-bottom: 0px;
     }
@@ -5750,7 +5746,7 @@ span {
     .answer {
         margin-bottom: 15px;
     }
-
+  /*==________STAFF________==*/
     .staff__inner {
         width: 672px;
     }
@@ -5780,7 +5776,7 @@ span {
         font-size: 16px;
         line-height: 18px;
     }
-
+  /*==________APPOINTMENT________==*/
     .form {
         width: 652px;
         height: 1686px;
@@ -5835,9 +5831,9 @@ span {
     .form .btn--orng {
         margin-bottom: 0;
     }
-
+  /*==________CONTACTS________==*/
     .contacts {
-        margin-bottom: -2px;
+        margin-bottom: -3px;
     }
 
     .contacts__left {
@@ -5862,7 +5858,7 @@ span {
         font-size: 20px;
         line-height: 22px;
     }
-
+  /*==________FOOTER________==*/
     .footer {
         height: 114px;
     }
@@ -5880,7 +5876,7 @@ span {
         font-size: 14px;
         line-height: 16px;
     }
-
+  /*==________MODAL________==*/
     .modal__dialog {
         width: 593.59px;
         height: 573.43px;
@@ -5948,6 +5944,10 @@ span {
 }
 
 @media (max-width: 376px) {
+    .bg {
+        width: 375px;
+    }
+
     .container {
         padding: 0 18px 18px 18px;
     }
@@ -5962,7 +5962,7 @@ span {
         width: 30px;
         margin: 0 5px;
     }
-
+  /*==________HEADER________==*/
     .header {
         width: 375px;
         height: 56px;
@@ -6006,7 +6006,7 @@ span {
     #menu-toggle.open {
         margin-top: -5px;
     }
-
+  /*==________INTRO________==*/
     .intro {
         width: 375px;
         height: 753px;
@@ -6062,7 +6062,7 @@ span {
         width: 0;
         height: 12px;
     }
-
+  /*==________SERVICES________==*/
     .services__inner {
         width: 320px;
         -ms-flex-wrap: wrap;
@@ -6095,7 +6095,7 @@ span {
         width: 339px;
         height: 191px;
     }
-
+  /*==________QUESTIONS________==*/
     .questions {
         margin-bottom: 0px;
     }
@@ -6122,11 +6122,11 @@ span {
         margin-bottom: 15px;
         padding: 20px 30px;
     }
-
+  /*==________STAFF________==*/
     .staff__inner {
         width: 350px;
     }
-
+  /*==________APPOINTMENT________==*/
     .form {
         width: 302px;
         height: 1331px;
@@ -6220,7 +6220,7 @@ span {
         margin-top: 2px;
         margin-right: -10px;
     }
-
+  /*==________CONTACTS________==*/
     .contacts {
         margin-bottom: -2px;
     }
@@ -6272,7 +6272,7 @@ span {
     .contacts__item:nth-child(4) {
         width: 140px;
     }
-
+  /*==________FOOTER________==*/
     .footer {
         width: 375px;
         height: 47px;
@@ -6307,7 +6307,7 @@ span {
         margin-bottom: 0;
         margin-right: 30px;
     }
-
+  /*==________MODAL________==*/
     .modal__dialog {
         width: 307.93px;
         height: 614.98px;
