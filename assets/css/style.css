@@ -4735,7 +4735,8 @@ textarea {
 body {
     width: 100%;
     margin: 0 auto;
-    background: #d9e4ea;
+/*     background: #d9e4ea; */
+    background: white;
     font-family: "Comfortaa";
     font-style: normal;
     font-weight: 700;
